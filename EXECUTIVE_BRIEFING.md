@@ -2,7 +2,8 @@
 
 **Date:** January 29, 2025  
 **Project:** DoX - Big 12 Conference Digital Policy Management Platform  
-**Status:** Initial Development Complete
+**Status:** MVP Development In Progress  
+**Developer:** HELiiX AI Solutions, LLC
 
 ---
 
@@ -69,12 +70,14 @@ DoX is a comprehensive digital policy management system designed specifically fo
 ## Technical Architecture
 
 ### Technology Stack
-- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
+- **Frontend**: Next.js 14 (App Router), TypeScript 5, Tailwind CSS
 - **Backend**: Supabase (PostgreSQL + Auth + Storage)
-- **AI Integration**: Model Context Protocol (MCP)
-- **PDF Generation**: React PDF
+- **AI Integration**: Model Context Protocol (MCP) with 18 specialized tools
+- **PDF Generation**: React PDF with Big 12 branding
 - **Hosting**: Ready for Vercel deployment
 - **Security**: Row-level security, encrypted connections
+- **Design System**: HELiiX minimalist black/white aesthetic
+- **Development**: Claude Code with 8 specialized sub-agents
 
 ### Key Features
 - **Full-Text Search**: PostgreSQL GIN indexes for sub-second searches
@@ -114,13 +117,17 @@ The MCP server enables advanced AI interactions:
 - Database schema design and implementation
 - Import all existing policies (191 total)
 - Basic search and retrieval functionality
-- MCP server for AI integration
+- MCP server with 18 tools for AI integration
+- Claude Code integration with specialized agents
+- UI/UX sub-agent workflow system
+- Git repository established
 
-### Phase 2: Web Interface (Next)
+### Phase 2: Web Interface (In Progress)
 - User authentication and authorization
-- Policy viewing and search interface
-- Manual generation UI
-- Admin dashboard for policy management
+- Policy viewing and search interface (Week 1)
+- Manual generation UI (Week 3)
+- Admin dashboard for policy management (Week 4)
+- HELiiX design system implementation
 
 ### Phase 3: Enhanced Features
 - Mobile application
@@ -233,8 +240,9 @@ DoX represents a significant modernization of Big 12 Conference policy managemen
 ---
 
 **Contact Information**  
-Project Lead: Director of Competition  
+Project Lead: Nick Williams, Director of Competition  
 Technical Lead: HELiiX AI Solutions, LLC  
-Repository: `/Users/nickw/Documents/XII-Ops/Dox`
+Repository: https://github.com/NicktheQuickFTW/DoX  
+MCP Integration: Available via Claude Code
 
 *This document represents the current state of the DoX system as of January 29, 2025*

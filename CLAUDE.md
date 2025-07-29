@@ -27,13 +27,32 @@ DoX implements hooks for safe policy operations:
 **Hook Logs:** `.claude/hooks/logs/` for audit trail
 
 ### DoX Sub-Agents
-Specialized agents for policy management:
+Specialized agents for policy management and UI development:
 
+**Policy Management Agents:**
 1. **policy-analyzer** - Compliance checks and cross-sport analysis
 2. **manual-generator** - PDF manual creation with Big 12 branding
 3. **policy-counsel** - Legal review for loopholes, enforceability, and liability
 
+**UI/UX Development Agents:**
+1. **ux-engineer** - Creates UX structures and user flows without styling
+2. **ui-implementation** - Applies HELiiX design system and visual styling
+3. **mobile-ux-engineer** - Optimizes UX for mobile and touch interfaces
+4. **ui-converter** - Converts HTML/CSS to React/Next.js components
+5. **ui-testing** - Generates A/B test variants and testing strategies
+
 **Usage:** Claude will automatically delegate to these agents based on task type.
+
+### UI/UX Sub-Agent Workflow
+For UI development tasks, Claude follows this systematic approach:
+
+1. **UX Structure** → UX Engineer creates wireframes and user flows
+2. **Visual Design** → UI Implementation Agent applies HELiiX styling
+3. **Mobile Optimization** → Mobile UX Engineer optimizes for touch
+4. **Framework Conversion** → UI Converter transforms to React components
+5. **Testing Variants** → UI Testing Agent creates A/B test options
+
+This modular approach separates concerns and enables parallel development of multiple UI variants.
 
 ## Project Overview
 
@@ -167,3 +186,8 @@ The system uses these enum values for policy categories:
 - 191 total policies imported from 8 sports
 - Sports covered: Baseball, Men's/Women's Basketball, Soccer, Volleyball, Gymnastics, Tennis, Wrestling
 - All policies have been imported with proper categorization and search indexing
+
+## Git Commits
+- Never include AI attribution in commit messages
+- Use standard commit format without Co-Authored-By lines
+- Keep commits clean and professional
